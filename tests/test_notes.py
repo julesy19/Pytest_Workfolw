@@ -6,7 +6,7 @@ from app.notes import calculer_moyenne, determiner_mention, est_reussi, valider_
 
 
 def test_calculer_moyenne_valide():
-    resultat = calculer_moyenne([80, 90, 100])
+    resultat = calculer_moyenne([00, 09, 90])
     assert resultat == 90.0
 
 
